@@ -1,5 +1,7 @@
+import streamlit as st
+
 def load_css():
-    return """
+    st.markdown("""
 <style>
 
     /*FONT*/
@@ -187,4 +189,4 @@ def load_css():
     }
 
 </style>
-"""
+""" ,unsafe_allow_html=True)
