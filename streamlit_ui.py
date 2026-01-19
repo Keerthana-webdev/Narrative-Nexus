@@ -11,6 +11,7 @@ from reporting import generate_pdf_report
 import pandas as pd
 
 def render_ui():
+    load_css()
 
     if "overall_sentiment" not in st.session_state:
         st.session_state.overall_sentiment = None
