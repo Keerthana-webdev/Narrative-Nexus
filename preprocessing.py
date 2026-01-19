@@ -5,6 +5,7 @@ from cleaning import clean_text
 
 #Downloads
 nltk.download("punkt")
+nltk.download("punkt_tab")
 nltk.download("wordnet")
 nltk.download("stopwords")
 
