@@ -26,7 +26,6 @@ def render_ui():
         st.session_state.abstractive = ""
 
     # PAGE SETUP
-    st.set_page_config(page_title="NarrativeNexus", layout="wide")
     st.markdown(load_css(), unsafe_allow_html=True)
 
     st.markdown("<h1 class='page-title'>📘 NarrativeNexus</h1>", unsafe_allow_html=True)
