@@ -57,21 +57,18 @@ Report Generation (PDF + CSV)
 ---
 
 ### Installation & Setup
+```
 1️⃣ Clone Repository
-
 git clone https://github.com/Keerthana-webdev/Narrative-Nexus.git
-
 cd NarrativeNexus
 
 2️⃣ Install Dependencies
-
 pip install -r
 requirements.txt
 
 3️⃣ Run Application
-
 streamlit run app.py
-
+```
 ---
 
 ### Usage
