@@ -3,45 +3,14 @@ NarrativeNexus is an end-to-end NLP-powered web application built using Streamli
 
 ---
 
-### Key Features
-- 📥Multi-format File Support
-  Upload and analyze ".txt", ".pdf", ".docx", ".csv" files
-
-- ✍Direct Text Input
-  Paste raw text for instant analysis
-
-- 🧹Advanced Text Preprocessing
-  - Lowercasing, regex cleaning
-  - Tokenization (NLTK)
-  - Stopword removal
-  - Lemmatization
-
-- 😊Sentiment Analysis (VADER)
-  - Positive / Neutral / Negative classification
-  - Compound score with confidence indication
-
-- 🧠Topic Modeling (LDA)
-  - Extract hidden topics from documents
-  - Dynamic topic adjustment based on input size
-  - Topic coherence validation
-
-- ✂Extractive Summarization
-  - Frequency-based important sentence extraction
-
-- 🧠Abstractive Summarization (Transformers)
-  - AI-generated human-like summaries using "facebook/bart-large-cnn"
-
-- 💡Insight Generation
-  Converts technical outputs into human-readable insights
-
-- 📊Visualization Dashboard
-  - Word Cloud
-  - Sentiment Distribution Chart
-  - Topic-wise sentiment visualization
-
-- 💾Export Options
-  - Download cleaned dataset as CSV
-  - Generate and download PDF analysis report
+### Tech Stack
+- Frontend/UI: Streamlit
+- Backend: Python
+- NLP Libraries: NLTK, Scikit-learn
+- Deep Learning: Hugging Face Transformers
+- Visualization: Matplotlib, WordCloud
+- Reporting: ReportLab
+- Data Handling: Pandas
 
 ---
 
@@ -63,18 +32,6 @@ NarrativeNexus/
 ├── css.py                  # Custom UI styling
 └── requirements.txt
 ```
-
----
-
-### Tech Stack
-- Frontend/UI: Streamlit
-- Backend: Python
-- NLP Libraries: NLTK, Scikit-learn
-- Deep Learning: Hugging Face Transformers
-- Visualization: Matplotlib, WordCloud
-- Reporting: ReportLab
-- Data Handling: Pandas
-
 ---
 
 ### Workflow Pipeline
