@@ -60,6 +60,7 @@ Report Generation (PDF + CSV)
 1️⃣ Clone Repository
 
 git clone https://github.com/Keerthana-webdev/Narrative-Nexus.git
+
 cd NarrativeNexus
 
 2️⃣ Install Dependencies
